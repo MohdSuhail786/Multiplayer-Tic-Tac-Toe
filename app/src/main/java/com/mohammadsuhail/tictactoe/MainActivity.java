@@ -16,7 +16,7 @@ import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
     Button newgame,entercode,exit;
-    Button newgameplay,joingameplay,resumebtn;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -75,6 +75,3 @@ public class MainActivity extends AppCompatActivity {
         return code;
     }
 }
-
-//shift reduce                            accept              error
-//push  replace handle at top of stack    input $ stack S     input $ stack not start symbol
